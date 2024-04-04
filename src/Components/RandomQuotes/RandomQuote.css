@@ -37,7 +37,7 @@
 }
 
 .icons img{
-    margin-top: 3vw;
+    margin-top: 2vw;
     height: 9vh;
     margin-left: 1rem;
     border: 1px solid white;
@@ -52,4 +52,41 @@
     left: 16%;
     border: 5px solid white;
     height: 8vh;
+}
+
+@media(max-width:1270px){
+    
+    .icons img{
+        height: 8vh;
+        margin-left: 1rem;
+    }
+
+    .icons img:nth-child(2){
+        height: 7vh;
+        left: 20%;
+    }
+}
+
+@media(max-width:900px){
+    .icons img{
+        height: 6vh;
+        margin-left: 1rem;
+    }
+
+    .icons img:nth-child(2){
+        height: 5vh;
+        left: 20%;
+    }
+}
+
+@media(max-width:400px){
+    .icons img{
+        height: 5vh;
+        margin-left: 1rem;
+    }
+
+    .icons img:nth-child(2){
+        height: 4vh;
+        left: 25%;
+    }
 }
